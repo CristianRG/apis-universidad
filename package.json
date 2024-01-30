@@ -1,0 +1,28 @@
+{
+  "name": "curp-api",
+  "version": "1.0.0",
+  "description": "api that can calculate the curp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianRG/apis-universidad.git"
+  },
+  "keywords": [
+    "api",
+    "design-apps"
+  ],
+  "author": "Cristian Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianRG/apis-universidad/issues"
+  },
+  "homepage": "https://github.com/CristianRG/apis-universidad#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
