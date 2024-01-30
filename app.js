@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.post('/api/curp', (req, res) => {
     const data = req.body
-    const curp = calcularCURP(data.app, data.apm, data.nombre, data.fechaN, data.sexo, data.lugarN)
+    const curp = calcularCURP(data.app, data.apm, data.nombre, new Date(data.fechaN), data.sexo, data.lugarN)
     res.json({status:200, message: 'OK', CURP: curp})
 })
 
